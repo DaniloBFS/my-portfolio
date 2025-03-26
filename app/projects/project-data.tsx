@@ -7,15 +7,27 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Mithril AI",
+    title: "SBOC Website",
     year: 2024,
-    description: "Open science AI resarch lab",
-    url: "https://github.com/mithrilai",
+    description: "Website oficial da Sociedade Brasileira de Oncologia Clínica",
+    url: "https://sboc.org.br/",
   },
   {
-    title: "OpenDeepLearning",
-    year: 2023,
-    description: "Open source AI education resources",
-    url: "https://opendeeplearning.xyz/",
+    title: "AppSBOC",
+    year: 2024,
+    description: "Aplicativo oficial da Sociedade Brasileira de Oncologia Clínica",
+    url: "https://app.sboc.org.br/",
+  },
+  {
+    title: "Lozinsky",
+    year: 2024,
+    description: "Website oficial da Consulturia Lozinsky",
+    url: "https://lozinskyconsultoria.com.br/",
+  },
+  {
+    title: "Essense",
+    year: 2024,
+    description: "Website oficial da Agencia Publicitária Essense",
+    url: "https://agenciaessense.com.br/",
   },
 ];
