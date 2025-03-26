@@ -13,6 +13,12 @@ export const projects: Project[] = [
     url: "https://sboc.org.br/",
   },
   {
+    title: "SBOC Website",
+    year: 2024,
+    description: "Website oficial da empresa de logística Maxtrack",
+    url: "https://maxtrack.com.br/",
+  },
+  {
     title: "AppSBOC",
     year: 2024,
     description: "Aplicativo oficial da Sociedade Brasileira de Oncologia Clínica",
