@@ -13,7 +13,7 @@ export const projects: Project[] = [
     url: "https://sboc.org.br/",
   },
   {
-    title: "SBOC Website",
+    title: "Maxtrack",
     year: 2024,
     description: "Website oficial da empresa de logística Maxtrack",
     url: "https://maxtrack.com.br/",
