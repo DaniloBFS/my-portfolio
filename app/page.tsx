@@ -1,18 +1,20 @@
 import Image from "next/image";
 import { socialLinks } from "./config";
 import { Experience } from "./components/experience";
+import { Skills } from "./components/skills";
+import { Certifications } from "./components/certifications";
 
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      <a href={socialLinks.linkedin} target="_blank">
         <Image
           src="/profile.png"
           alt="Profile photo"
           className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
           unoptimized
-          width={160}
-          height={160}
+          width={150}
+          height={150}
           priority
         />
       </a>
@@ -41,6 +43,8 @@ export default function Page() {
         </p>
       </div>
     <Experience />
+    <Skills />
+    <Certifications />
     </section>
     
   );
