@@ -4,12 +4,13 @@ import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 
 const skills = {
-  "Linguagens": ["PHP", "JavaScript", "TypeScript"],
-  "Frameworks & Bibliotecas": ["ReactJS", "NodeJS", "Laravel", "Tailwind CSS", "Bootstrap"],
-  "Bancos de Dados": ["MySQL", "MongoDB"],
-  "Ferramentas & Plataformas": ["Git", "GitHub", "Bitbucket", "Webflow", "WordPress", "npm"],
-  "Cloud / Infraestrutura": ["Firebase", "AWS", "Docker"],
-  "Metodologias": ["SCRUM", "Agile"],
+  "Languages": ["PHP", "JavaScript", "TypeScript", "Python"],
+  "Frameworks & Libraries": ["React.js", "Laravel", "Django", "Tailwind CSS", "Bootstrap", "jQuery"],
+  "Databases": ["MySQL", "MongoDB"],
+  "Tools & Platforms": ["Git", "GitHub", "Bitbucket", "Docker", "Firebase", "WordPress", "Webflow"],
+  "Cloud & DevOps": ["AWS", "Docker", "Kubernetes"],
+  "Methodologies": ["Agile", "SCRUM"],
+  "Other": ["Linux", "Web Performance Optimization", "CI/CD pipelines"]
 };
 
 export function Skills() {
@@ -20,7 +21,7 @@ export function Skills() {
     setMounted(true);
   }, []);
 
-  if (!mounted) return null; // Evita piscar o tema errado antes do carregamento
+  if (!mounted) return null; 
 
   const isDark = resolvedTheme === "dark";
   const containerBg = isDark ? "bg-dark" : "bg-white";
@@ -31,7 +32,7 @@ export function Skills() {
 
   return (
     <div className={`max-w-2xl mt-8 sm:px-0 ${containerBg} rounded-2xl`}>
-      <h3 className={`text-2xl font-semibold ${textColor} mt-8 mb-4`}>Habilidades Técnicas</h3>
+      <h3 className={`text-2xl font-semibold ${textColor} mt-8 mb-4`}>Tech Stack</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {Object.entries(skills).map(([category, items], index) => (
           <div

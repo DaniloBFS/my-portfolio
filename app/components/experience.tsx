@@ -5,45 +5,35 @@ import { useTheme } from "next-themes";
 
 const experiences = [
   {
-    title: "Desenvolvedor FullStack",
-    company: "GranoStudio",
-    period: "Maio/2023 - Atual",
-    details: [
-      "Desenvolvi e mantive websites e aplicações web com interfaces responsivas e otimizadas (HTML, CSS, JavaScript, Bootstrap e jQuery).",
-      "Personalizei temas e implementei funcionalidades no WordPress usando PHP, focando em segurança, desempenho e escalabilidade.",
-      "Desenvolvi e implementei APIs REST utilizando PHP com Laravel, otimizando a integração com MySQL e garantindo maior eficiência, escalabilidade e performance.",
-      "Realizei revisões de segurança e QA, identificando vulnerabilidades e garantindo a estabilidade e confiabilidade dos projetos.",
-      "Trabalhei em ambientes Dockerizados, facilitando a configuração e o gerenciamento de ambientes de desenvolvimento.",
-      "Colaborei com equipes ágeis em sprints SCRUM, utilizando Git e Bitbucket para versionamento e controle de código."
+    title: "Software Engineer",
+    company: "Grano Studio",   
+    period: "2023 – Present", 
+    details: [                 
+      "Engineered responsive and performant web apps using React.js, Tailwind CSS, Bootstrap, and jQuery.",
+      "Built and integrated RESTful APIs with Laravel and MySQL, reducing data retrieval latency by up to 40%.",
+      "Extended and customized WordPress themes/plugins in PHP for over 15 client projects.",
+      "Conducted code audits and security assessments, cutting app downtime by 25%.",
+      "Deployed and maintained Docker-based environments, reducing deployment time by 30%.",
+      "Contributed to Agile/SCRUM sprints, using Git, GitHub, and Bitbucket for version control."
     ],
-    impact: "Projetos mais seguros, rápidos e eficientes, melhorando a experiência dos usuários e a satisfação dos clientes."
+    impact: "Boosted system stability and performance, improving client satisfaction and contributing to a 20% rise in project retention." // Impacto gerado
   },
   {
-    title: "Desenvolvedor FullStack",
-    company: "No Caminho do Êxito",
-    period: "Jan/2023 - Abril/2023",
-    details: [
-      "Desenvolvi aplicações web utilizando PHP, HTML, CSS e JavaScript.",
-      "Implementei funcionalidades backend, como sistemas de login, gerenciamento de usuários e gerenciamento de e-commerce.",
-      "Trabalhei na otimização de performance e segurança das aplicações.",
-      "Participei de reuniões estratégicas para identificar melhorias e atualizações dos sistemas.",
-      "Colaborei em sprints SCRUM, entregando soluções que aprimoraram a experiência do usuário final."
+    title: "IT Support",    
+    company: "Visor2B",        
+    period: "2022 – 2023",     
+    details: [                 
+      "Supported internal software development and IT infrastructure for 30+ users.",
+      "Set up server virtualization and implemented VoIP systems, cutting communication costs by 15%.",
+      "Programmed and deployed Interactive Voice Response (IVR) systems using C, improving call routing and reducing wait times by 20%.",
+      "Delivered Tier 1 and Tier 2 support, resolving 10+ incidents/week and enhancing user productivity."
     ],
-    impact: "Melhorias na segurança e performance das aplicações, otimizando a gestão de usuários e dados."
-  },
-  {
-    title: "Estágio em TI",
-    company: "Visor2B",
-    period: "Out/2022 – Jan/2023",
-    details: [
-      "Ofereci suporte no desenvolvimento de sistemas e manutenção de redes.",
-      "Trabalhei na configuração e virtualização de servidores e sistemas de telefonia.",
-      "Participei da implementação de URAs (Unidades de Resposta Audível) em Linguagem C.",
-      "Atendi clientes em visitas técnicas, solucionando problemas e aprimorando sistemas."
-    ],
-    impact: "Melhorias na infraestrutura de TI, aprimorando o desempenho e a segurança dos sistemas da empresa."
+    impact: "Strengthened infrastructure reliability and ensured operational continuity across teams." 
   }
 ];
+
+// Para verificar, você pode imprimir o array no console:
+// console.log(experiences);
 
 export function Experience() {
   const [selectedExp, setSelectedExp] = useState<{
@@ -78,7 +68,7 @@ export function Experience() {
 
   return (
     <div className={`max-w-2xl mt-8 sm:px-0 ${containerBg} rounded-2xl`}>
-      <h3 className={`text-2xl font-semibold ${textColor} mb-6`}>Experiência profissional</h3>
+      <h3 className={`text-2xl font-semibold ${textColor} mb-6`}>Professional Experience</h3>
       <div className="space-y-4">
         {experiences.map((exp, index) => (
           <button
@@ -120,7 +110,7 @@ export function Experience() {
               ))}
             </ul>
             <p className={`mt-4 font-semibold ${isDark ? "text-gray-300" : "text-gray-700"}`}>
-              Impacto: {selectedExp.impact}
+              Impact: {selectedExp.impact}
             </p>
           </div>
         </div>

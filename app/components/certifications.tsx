@@ -31,7 +31,7 @@ export function Certifications() {
 
   return (
     <div className="max-w-2xl mt-8 sm:px-0">
-      <h3 className={`text-2xl font-semibold ${textColor} mb-6`}>Certificados</h3>
+      <h3 className={`text-2xl font-semibold ${textColor} mb-6`}>Certifications</h3>
 
       {/* Opção 1: Botões sutis */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">

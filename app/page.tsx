@@ -19,27 +19,22 @@ export default function Page() {
         />
       </a>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Olá, me chamo Danilo!
+        Hello there, I am Danilo!
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        Sou um Desenvolvedor Full Stack apaixonado por criar sistemas web responsivos e escaláveis. 
-        Tenho experiência tanto no desenvolvimento quanto na infraestrutura, 
-        com conhecimento em redes e arquitetura de aplicações.
+        Software Engineer with hands-on experience in building scalable, secure, 
+        and high-performance web applications. Proficient in PHP, JavaScript, Python and TypeScript, 
+        with strong knowledge of modern frameworks like React.js, Node.js, and Laravel. 
         </p>
         <p>
-        Trabalho com PHP, JavaScript e TypeScript, utilizando frameworks modernos como ReactJS, NodeJS e Laravel para entregar soluções eficientes e de alto desempenho. 
-        Além disso, tenho experiência prática com Docker, AWS e Kubernetes, garantindo a gestão e escalabilidade dos ambientes.
+        Adept at developing and integrating RESTful APIs, optimizing database performance, 
+        and implementing responsive front ends with UX best practices. Comfortable across the full stack, 
+        from backend logic to frontend UI, containerized environments, and cloud deployment. 
+        Collaborative, agile-driven, and committed to continuous learning and team success.
         </p>
         <p>
-        Também atuo na integração de APIs, 
-        otimização de desempenho e desenvolvimento de soluções seguras. 
-        No dia a dia, sigo metodologias ágeis (SCRUM) 
-        e utilizo ferramentas de versionamento como Git 
-        e Bitbucket para manter um fluxo de trabalho organizado e colaborativo.
-        </p>
-        <p>
-        Estou sempre aberto a novos desafios, seja no desenvolvimento ou em outras áreas da tecnologia!
+        I'm always open to new challenges, whether in development or in other areas of technology!
         </p>
       </div>
     <Experience />
