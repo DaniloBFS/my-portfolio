@@ -4,11 +4,11 @@ import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 
 const skills = {
-  "Languages": ["PHP", "JavaScript", "TypeScript", "Python"],
-  "Frameworks & Libraries": ["React.js", "Laravel", "Django", "Tailwind CSS", "Bootstrap", "jQuery"],
+  "Languages": ["JavaScript", "TypeScript", "Python", "PHP"],
+  "Frameworks & Libraries": ["React.js", "Django", "Tailwind CSS", "Bootstrap"],
   "Databases": ["MySQL", "MongoDB"],
   "Tools & Platforms": ["Git", "GitHub", "Bitbucket", "Docker", "Firebase", "WordPress", "Webflow"],
-  "Cloud & DevOps": ["AWS", "Docker", "Kubernetes"],
+  "Cloud & DevOps": ["AWS", "Docker"],
   "Methodologies": ["Agile", "SCRUM"],
   "Other": ["Linux", "Web Performance Optimization", "CI/CD pipelines"]
 };

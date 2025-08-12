@@ -22,20 +22,15 @@ export default function Page() {
         Hello there, I am Danilo!
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
-        <p>
-        Software Engineer with hands-on experience in building scalable, secure, 
-        and high-performance web applications. Proficient in PHP, JavaScript, Python and TypeScript, 
-        with strong knowledge of modern frameworks like React.js, Node.js, and Laravel. 
-        </p>
-        <p>
-        Adept at developing and integrating RESTful APIs, optimizing database performance, 
-        and implementing responsive front ends with UX best practices. Comfortable across the full stack, 
-        from backend logic to frontend UI, containerized environments, and cloud deployment. 
-        Collaborative, agile-driven, and committed to continuous learning and team success.
-        </p>
-        <p>
-        I'm always open to new challenges, whether in development or in other areas of technology!
-        </p>
+          <p>
+              Full-Stack Engineer specializing in front-end development, focused on building high-performance user interfaces with <strong>React.js and TypeScript</strong>. My experience includes engineering robust backends with PHP and Node.js and optimizing RESTful APIs in containerized cloud environments.
+          </p>
+          <p>
+              Beyond coding, I've taken full ownership of the Quality Assurance process for over 15 websites, from test planning to execution. I am also versatile with platforms like WordPress and Webflow.
+          </p>
+          <p>
+              With <strong>Italian citizenship</strong> and fluent English, Portuguese and now learning Spanish, I am actively seeking new challenges and am open to relocation opportunities across Europe. Let's build something great together!
+          </p>
       </div>
     <Experience />
     <Skills />

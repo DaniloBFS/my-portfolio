@@ -4,32 +4,41 @@ import React, { useState } from "react";
 import { useTheme } from "next-themes";
 
 const experiences = [
-  {
-    title: "Software Engineer",
-    company: "Grano Studio",   
-    period: "2023 – Present", 
-    details: [                 
-      "Engineered responsive and performant web apps using React.js, Tailwind CSS, Bootstrap, and jQuery.",
-      "Built and integrated RESTful APIs with Laravel and MySQL, reducing data retrieval latency by up to 40%.",
-      "Extended and customized WordPress themes/plugins in PHP for over 15 client projects.",
-      "Conducted code audits and security assessments, cutting app downtime by 25%.",
-      "Deployed and maintained Docker-based environments, reducing deployment time by 30%.",
-      "Contributed to Agile/SCRUM sprints, using Git, GitHub, and Bitbucket for version control."
-    ],
-    impact: "Boosted system stability and performance, improving client satisfaction and contributing to a 20% rise in project retention." // Impacto gerado
-  },
-  {
-    title: "IT Support",    
-    company: "Visor2B",        
-    period: "2022 – 2023",     
-    details: [                 
-      "Supported internal software development and IT infrastructure for 30+ users.",
-      "Set up server virtualization and implemented VoIP systems, cutting communication costs by 15%.",
-      "Programmed and deployed Interactive Voice Response (IVR) systems using C, improving call routing and reducing wait times by 20%.",
-      "Delivered Tier 1 and Tier 2 support, resolving 10+ incidents/week and enhancing user productivity."
-    ],
-    impact: "Strengthened infrastructure reliability and ensured operational continuity across teams." 
-  }
+    {
+        title: "Software Engineer",
+        company: "Grano Studio",
+        period: "2023 – Present",
+        details: [
+            "Engineered and maintained high-performance web applications using React.js, TypeScript, Tailwind CSS, and Bootstrap for the frontend, and PHP/Laravel for robust backend services.",
+            "Designed, built, and integrated complex RESTful APIs with MySQL databases, applying advanced query optimization techniques that resulted in a 40% reduction in data retrieval latency.",
+            "Developed and customized solutions on various platforms, including building custom themes and plugins for WordPress, creating websites with Webflow, and integrating Firebase for backend services.",
+            "Performed systematic code audits and security assessments, identifying and fixing vulnerabilities which led to a 25% cut in application downtime.",
+            "Managed the end-to-end development and deployment workflow within an Agile/SCRUM environment, using Git/GitHub/Bitbucket for version control and contributing to the CI/CD pipeline.",
+            "Deployed and maintained applications in containerized environments using Docker, reducing deployment time and ensuring consistency across staging and production.",
+            "Architected and executed comprehensive QA strategies for over 10 web applications, encompassing test plan creation, test case design, and execution of functional, integration, regression, and usability testing.",
+            "Conducted in-depth API testing using Postman to validate RESTful services, ensuring data integrity, proper error handling, and adherence to specifications.",
+            "Initiated and developed automated end-to-end (E2E) test suites using Selenium and Cypress, significantly reducing manual regression testing time and increasing test coverage for critical workflows.",
+            "Managed the full defect lifecycle using Jira and Trello, from identification and detailed documentation to triage and verification within Agile/SCRUM sprints.",
+            "Performed performance testing using tools like JMeter and Google Lighthouse.",
+            "Ensured cross-browser consistency and validated compliance with WCAG."
+        ],
+        impact: "Optimized key application performance, achieving a 40% reduction in data latency and a 25% cut in application downtime, which directly improved client satisfaction." // Impacto gerado
+    },
+    {
+        title: "IT Support",
+        company: "Visor2B",
+        period: "2022 – 2023",
+        details: [
+            "Provided comprehensive Tier 1 and Tier 2 on-site and remote technical support for over 200 users across a corporate office and multiple retail locations.",
+            "Troubleshot and resolved escalated issues related to the Microsoft 365 ecosystem (including MS Office applications, Outlook, SharePoint, Teams, OneDrive) and managed on-premises Active Directory for user accounts, permissions, and group policies.",
+            "Managed and maintained Windows Server environments in a VMware virtualized Data Center, performing regular maintenance, applying security patches, and system updates.",
+            "Performed hands-on troubleshooting of hardware issues while also installing, configuring, and maintaining computer hardware, operating systems (Windows 10/11), applications, printers, and mobile devices, utilizing various remote support tools.",
+            "Administered core network infrastructure connecting the head office with over 70 retail stores, performing troubleshooting on routers, switches, VPNs, and FortiClient firewalls to ensure network stability and security across all locations.",
+            "Led a small-scale project to implement a company-wide VoIP system (GoTo), resulting in a 15% reduction in communication costs.",
+            "Created and maintained internal documentation and knowledge base articles to support IT governance and standardize procedures."
+        ],
+        impact: "Led a VoIP system implementation project that resulted in a 15% reduction in communication costs while enhancing support infrastructure for over 200 users."
+    }
 ];
 
 // Para verificar, você pode imprimir o array no console:
