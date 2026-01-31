@@ -23,13 +23,13 @@ export default function Page() {
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
           <p>
-              Full-Stack Engineer specializing in front-end development, focused on building high-performance user interfaces with <strong>React.js and TypeScript</strong>. My experience includes engineering robust backends with PHP and Node.js and optimizing RESTful APIs in containerized cloud environments.
+              <strong>IT Engineer</strong> with a versatile background spanning full-stack development and mission-critical infrastructure. I specialize in building high-performance interfaces with <strong>React.js and TypeScript</strong>, while also managing complex IT environments, ensuring high availability and security for industrial-scale operations.
           </p>
           <p>
-              Beyond coding, I've taken full ownership of the Quality Assurance process for over 15 websites, from test planning to execution. I am also versatile with platforms like WordPress and Webflow.
+              My expertise bridges the gap between <strong>Software Engineering</strong> (PHP/Laravel, APIs, and QA automation) and <strong>IT Infrastructure</strong> (Active Directory, Network troubleshooting, and Virtualization). I have a proven track record of optimizing application performance and maintaining strict SLA compliance in high-pressure settings.
           </p>
           <p>
-              With <strong>Italian citizenship</strong> and fluent English, Portuguese and now learning Spanish, I am actively seeking new challenges and am open to relocation opportunities across Europe. Let's build something great together!
+              As an <strong>Italo-Brazilian citizen</strong> fluent in English and Portuguese (and currently expanding my Spanish), I am prepared for international mobility. I am actively seeking global opportunities where I can leverage my hybrid technical skillset to solve complex challenges.
           </p>
       </div>
     <Experience />

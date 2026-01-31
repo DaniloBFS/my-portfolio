@@ -5,39 +5,46 @@ import { useTheme } from "next-themes";
 
 const experiences = [
     {
-        title: "Software Engineer",
-        company: "Grano Studio",
-        period: "2023 – Present",
+        title: "IT Support Engineer",
+        company: "Minsait (Indra Group) — Client: Petrobras - REPLAN",
+        period: "Oct 2025 – Present",
         details: [
-            "Engineered and maintained high-performance web applications using React.js, TypeScript, Tailwind CSS, and Bootstrap for the frontend, and PHP/Laravel for robust backend services.",
-            "Designed, built, and integrated complex RESTful APIs with MySQL databases, applying advanced query optimization techniques that resulted in a 40% reduction in data retrieval latency.",
-            "Developed and customized solutions on various platforms, including building custom themes and plugins for WordPress, creating websites with Webflow, and integrating Firebase for backend services.",
-            "Performed systematic code audits and security assessments, identifying and fixing vulnerabilities which led to a 25% cut in application downtime.",
-            "Managed the end-to-end development and deployment workflow within an Agile/SCRUM environment, using Git/GitHub/Bitbucket for version control and contributing to the CI/CD pipeline.",
-            "Deployed and maintained applications in containerized environments using Docker, reducing deployment time and ensuring consistency across staging and production.",
-            "Architected and executed comprehensive QA strategies for over 10 web applications, encompassing test plan creation, test case design, and execution of functional, integration, regression, and usability testing.",
-            "Conducted in-depth API testing using Postman to validate RESTful services, ensuring data integrity, proper error handling, and adherence to specifications.",
-            "Initiated and developed automated end-to-end (E2E) test suites using Selenium and Cypress, significantly reducing manual regression testing time and increasing test coverage for critical workflows.",
-            "Managed the full defect lifecycle using Jira and Trello, from identification and detailed documentation to triage and verification within Agile/SCRUM sprints.",
-            "Performed performance testing using tools like JMeter and Google Lighthouse.",
-            "Ensured cross-browser consistency and validated compliance with WCAG."
+            "Delivers on-site L1/L2 technical support for a high-availability industrial environment serving over 3,000 users, ensuring operational continuity in a high-security setting.",
+            "Manages the full lifecycle of technical incidents and service requests using ServiceNow, consistently maintaining a 98% SLA compliance rate through strict adherence to ITIL best practices.",
+            "Administers identity and access management, including user accounts, groups, and permissions in Active Directory (AD).",
+            "Resolves complex issues within the Microsoft 365 ecosystem (Outlook, Teams, OneDrive) to ensure seamless user productivity.",
+            "Executes hardware setup, maintenance, and troubleshooting for workstations, printers, and mobile devices, alongside full IT asset lifecycle management.",
+            "Supports local network infrastructure by troubleshooting connectivity issues (TCP/IP), managing switches/routers, and assisting with server maintenance.",
+            "Educates end-users on security protocols, including VPN connectivity and compliance standards."
         ],
-        impact: "Optimized key application performance, achieving a 40% reduction in data latency and a 25% cut in application downtime, which directly improved client satisfaction." // Impacto gerado
+        impact: "Maintaining a 98% SLA compliance rate for over 3,000 users in a high-security industrial environment through strict ITIL adherence."
     },
     {
-        title: "IT Support",
+        title: "Software Engineer",
+        company: "Grano Studio",
+        period: "May 2023 – Oct 2025",
+        details: [
+            "Engineered and maintained high-performance web applications using React.js, TypeScript, Tailwind CSS, and Bootstrap for the frontend, and PHP/Laravel for robust backend services.",
+            "Designed, built, and integrated RESTful APIs with MySQL databases.",
+            "Developed and customized solutions on various platforms, including building custom themes and plugins for WordPress, creating websites with Webflow, and integrating Firebase for backend services.",
+            "Took full ownership of the Quality Assurance process for over 15 websites, which included designing test plans, performing manual testing, and conducting API testing using tools like Postman and Selenium.",
+            "Performed systematic code audits and security assessments, identifying and fixing vulnerabilities which led to a 25% cut in application downtime.",
+            "Managed development and deployment workflow within an Agile/SCRUM environment, using Git/GitHub/Bitbucket for version control.",
+            "Deployed and maintained applications in containerized environments using Docker."
+        ],
+        impact: "Led QA for over 15 websites and executed security assessments that resulted in a 25% reduction in application downtime."
+    },
+    {
+        title: "IT Support Engineer",
         company: "Visor2B",
         period: "2022 – 2023",
         details: [
-            "Provided comprehensive Tier 1 and Tier 2 on-site and remote technical support for over 200 users across a corporate office and multiple retail locations.",
-            "Troubleshot and resolved escalated issues related to the Microsoft 365 ecosystem (including MS Office applications, Outlook, SharePoint, Teams, OneDrive) and managed on-premises Active Directory for user accounts, permissions, and group policies.",
-            "Managed and maintained Windows Server environments in a VMware virtualized Data Center, performing regular maintenance, applying security patches, and system updates.",
-            "Performed hands-on troubleshooting of hardware issues while also installing, configuring, and maintaining computer hardware, operating systems (Windows 10/11), applications, printers, and mobile devices, utilizing various remote support tools.",
-            "Administered core network infrastructure connecting the head office with over 70 retail stores, performing troubleshooting on routers, switches, VPNs, and FortiClient firewalls to ensure network stability and security across all locations.",
-            "Led a small-scale project to implement a company-wide VoIP system (GoTo), resulting in a 15% reduction in communication costs.",
-            "Created and maintained internal documentation and knowledge base articles to support IT governance and standardize procedures."
+            "Provided comprehensive on-site Tier 1 & 2 technical support for over 30 users per week, acting as the primary point of contact for all IT-related issues.",
+            "Managed and maintained core IT infrastructure, including the setup of server virtualization on Linux environments.",
+            "Implemented a company-wide VoIP system, which cut communication costs by 15%.",
+            "Configured and troubleshot network infrastructure, applying hands-on experience with routers, switches, and firewalls to ensure network stability."
         ],
-        impact: "Led a VoIP system implementation project that resulted in a 15% reduction in communication costs while enhancing support infrastructure for over 200 users."
+        impact: "Implemented a company-wide VoIP system that cut communication costs by 15% and managed Linux-based server virtualization."
     }
 ];
 
